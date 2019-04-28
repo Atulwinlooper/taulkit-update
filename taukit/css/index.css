@@ -1,0 +1,55 @@
+a {
+	text-decoration: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black;
+}
+
+#container 	{
+	position: relative;
+	width: 100%;
+	background-image: linear-gradient(110deg, black 50%,  darkorange 50%);
+	height: 50vw;
+}
+
+#stu-logo, #fac-logo {
+	border: 8px double white;
+	border-radius: 100%;
+	height: 15vw;	
+	transition: all .2s ease-in-out;
+}
+
+#stu-logo {
+	margin: 15vw 0 0 -17.5vw;
+}
+
+#fac-logo {
+	width: 15vw;
+	float: right;
+	margin: -9.7vw 35vw 0 0;
+}
+
+#stu-logo:hover, #fac-logo:hover {
+	transform: scale(1.1);
+}
+
+#stu-text, #fac-text {
+	color: white;
+	font-size: 2.5vw;
+	width: 140px;
+	text-align: center;
+}
+
+#stu-text {
+	margin: .4vw 0 0 -18.3vw;
+	color: darkorange;
+}
+
+#fac-text {
+	color: black;
+	margin: -12.5vw 0 0 11.9vw;
+}
